@@ -1,0 +1,187 @@
+body {
+    margin: 0%;
+    padding-top: 2%;
+    background-image: url("background.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.box {
+    max-width: 22%;
+    min-height: 600px;
+    text-align: center;
+    border-radius: 5%;
+    position: relative;
+    left: 38%;
+    cursor: pointer;
+    background-color: #F4F3F3;
+    
+}
+
+.logo {
+    width: 100%;
+    min-height: 30%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    display: flex;
+}
+
+.hd {
+    margin-bottom: 1%;
+}
+
+.para {
+    display: inline-block;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.plan {
+    width: 80%;
+    display: flex;
+    position: relative;
+    left: 10%;
+    background-color: #DFDFDF;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+.music {
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-left: 5%;
+    height: 8%;
+}
+
+.annual {
+    display: inline-block;
+    font-size: 85% ;
+}
+
+.change {
+    padding-top: 1.5%;
+    display: flex;
+    position: relative;
+    left: 24%;
+    color: blue;
+    text-decoration: underline;
+    font-size: 95%;
+}
+
+
+.change:hover {
+    color:darkblue
+}
+
+.btn {
+    background: #AEEFF0;
+    background-image: -webkit-linear-gradient(top, #AEEFF0, #2980b9);
+    background-image: -moz-linear-gradient(top, #AEEFF0, #2980b9);
+    background-image: -ms-linear-gradient(top, #AEEFF0, #2980b9);
+    background-image: -o-linear-gradient(top, #AEEFF0, #2980b9);
+    background-image: linear-gradient(to bottom, #AEEFF0, #2980b9);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 33px 12px 33px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  .cancel {
+      display: inline-block;
+      margin-top: 10%;
+      margin-bottom: 0%;
+  }
+  .cancel {
+    background: #aef5f5;
+    background-image: -webkit-linear-gradient(top, #aef5f5, #1650c4);
+    background-image: -moz-linear-gradient(top, #aef5f5, #1650c4);
+    background-image: -ms-linear-gradient(top, #aef5f5, #1650c4);
+    background-image: -o-linear-gradient(top, #aef5f5, #1650c4);
+    background-image: linear-gradient(to bottom, #aef5f5, #1650c4);
+    -webkit-border-radius: 38;
+    -moz-border-radius: 38;
+    border-radius: 38px;
+    text-shadow: 1px 1px 3px #1c181c;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 7px 14px 7px 14px;
+    text-decoration: none;
+  }
+  
+  .cancel:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  @media only screen and (max-width: 911px) {
+    body {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .box {
+        max-width: 80%;
+        max-height: 80%;
+        position: relative;
+        margin-top: 5%;
+        left: 10%;
+        background-color: #DDDDDD;
+    }
+
+    .plan {
+        width: 85%;
+        display: flex;
+        position: relative;
+        left: 7.5%;
+        background-color: #DFDFDF;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 10%;
+    }
+
+    .music {
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-left: 5%;
+        height: 10%;
+    }
+
+    .change {
+        padding-top: 3%;
+        left: 16%;
+        font-size: 95%;
+    }
+
+    .change:hover {
+        color:darkblue
+    }
+
+    .cancel {
+        display: inline-block;
+        margin-top: 10%;
+  }
